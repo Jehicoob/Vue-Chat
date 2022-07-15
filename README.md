@@ -1,6 +1,6 @@
 # vue-chat
 
-## Project setup
+## Project setup in Vue 2
 ```
 npm install
 ```
@@ -18,6 +18,10 @@ npm run build
 ### Lints and fixes files
 ```
 npm run lint
+```
+### Router
+```
+npm i vue-router@3.5.3
 ```
 
 ### Customize configuration
