@@ -1,0 +1,69 @@
+/* ----------------------- Chats transitions ----------------------- */
+
+.viewChatsTransition-enter-active {
+    transition: all .3s;
+}
+
+.viewChatsTransition-leave-active {
+    transition: all .3s;
+}
+
+.viewChatsTransition-enter{
+    transform: translateX(100%);
+    opacity: 0;
+}
+
+.viewChatsTransition-leave-to{
+    transform: translateX(100%);
+    opacity: 0;
+}
+
+/* ----------------------- Profile transitions ----------------------- */
+
+.viewProfileTransition-enter-active {
+    transition: all .3s;
+}
+
+.viewProfileTransition-leave-active {
+    transition: all .3s;
+}
+
+.viewProfileTransition-enter{
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+.viewProfileTransition-leave-to{
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+/* ----------------------- Contact transitions ----------------------- */
+
+.viewContactTransition-enter-active {
+    transition: all .2s;
+}
+
+.viewContactTransition-leave-active {
+    transition: all .2s;
+}
+
+.viewContactTransition-enter, .viewContactTransition-leave-to{
+    min-width: 0rem;
+    width: 0%;
+    opacity: 0;
+}
+
+.viewContactTransition-leave, .viewContactTransition-enter-to{
+    min-width: 45rem;
+    width: 70%;
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
